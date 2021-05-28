@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomiseStartingNPRs", "CustomiseStartingNPRs.csproj", "{735CBA52-EE86-4E4D-949D-3D7F19B118B1}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "AuroraPatch", "..\..\v1.13\AuroraPatch.exe", "{B984FED8-AF39-4065-88BB-DA38625F7271}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\Games\AuroraCSharp\v1.13\AuroraPatch.exe
+		RemoteMachine = LAPTOP
+		StartingDirectory = D:\Games\AuroraCSharp\v1.13
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Debug|x86.Build.0 = Debug|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Release|x86.ActiveCfg = Release|Any CPU
+		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Release|x86.Build.0 = Release|Any CPU
+		{B984FED8-AF39-4065-88BB-DA38625F7271}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{B984FED8-AF39-4065-88BB-DA38625F7271}.Debug|x86.ActiveCfg = Release|Any CPU
+		{B984FED8-AF39-4065-88BB-DA38625F7271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B984FED8-AF39-4065-88BB-DA38625F7271}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E845BC1-2869-406A-ACEE-A88A9B1EC91C}
+	EndGlobalSection
+EndGlobal
